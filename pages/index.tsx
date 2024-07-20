@@ -1,14 +1,14 @@
 import Image, { StaticImageData } from "next/image";
-import imageBass from "../public/images/IMG-20230620-WA0026.png";
+import imageBass from "../public/images/IMG_0328.jpg";
 
 export async function getStaticProps() {
   return {
     props: {
       pageId: "about_me",
       metadata: {
-        title: "El Hadji Bassirou TOURE",
+        title: "Bila Diop",
         description:
-          "Get to know El Hadji Bassirou TOURE and the things he loves by visiting his personal website.",
+          "Get to know Bila Diop and the things he loves by visiting his personal website.",
         openGraph: {
           image: "https://example.com/image.jpg",
           url: "https://example.com",
@@ -41,10 +41,7 @@ export default function Home() {
       <header>
         <h1 className="font-bold text-4xl text-zinc-800">Who am I?</h1>
         <p className="text-base mt-6 text-zinc-600">
-          Hello, I am <strong>Dr. El Hadji Bassirou TOURE</strong>, a computer
-          science teacher and researcher in the Department of Mathematics and
-          Computer Science at the Faculty of Science and Technology of Cheikh
-          Anta Diop University.
+          Hello, I am <strong>Bila DIOP</strong>, student at University Cheikh Anta DIOP of Dakar
         </p>
       </header>
       <div className="mt-2">

@@ -1,8 +1,12 @@
 import Image, { StaticImageData } from "next/image";
 
 import imageFaille from "../public/images/movies/LA FAILLE.png";
+import imageXmen from "../public/images/movies/téléchargement.jpeg";
 import imageIdentity from "../public/images/movies/IDENTITY.png";
 import imageLegend from "../public/images/movies/LEGENDES D'AUTOMNE.jpg";
+import imageStranger from "../public/images/movies/téléchargement (1).jpeg";
+import imageGame from "../public/images/movies/téléchargement (2).jpeg";
+import imageDynastie from "../public/images/movies/téléchargement (3).jpeg";
 
 export async function getStaticProps() {
   return {
@@ -82,6 +86,12 @@ gap-y-16 mt-8"
             urlDisplay={"CANAL+"}
             imageSrc={imageFaille}
           />
+          <ProjectItem
+            name={"X-men"}
+            url={"https://www.allocine.fr/film/fichefilm_gen_cfilm=25518.html"}
+            urlDisplay={"CANAL+"}
+            imageSrc={imageXmen}
+          />
         </ul>
       </div>
       <div className="mt-16">
@@ -91,22 +101,22 @@ gap-y-16 mt-8"
 gap-y-16 mt-8"
         >
           <ProjectItem
-            name={"LEGENDS OF THE FALL"}
-            url={"https://www.netflix.com/sn/title/693960"}
+            name={"Stranger Things"}
+            url={"https://www.netflix.com/sn/title/80057281"}
             urlDisplay={"Netflix"}
-            imageSrc={imageLegend}
+            imageSrc={imageStranger}
           />
           <ProjectItem
-            name={"IDENTITY"}
-            url={"https://www.imdb.com/title/tt0309698/"}
-            urlDisplay={"imdb.com"}
-            imageSrc={imageIdentity}
+            name={"Games of thrones"}
+            url={"https://www.netflix.com/sn/title/80202133"}
+            urlDisplay={"Netflix"}
+            imageSrc={imageGame}
           />
           <ProjectItem
-            name={"LA FAILLE"}
-            url={"https://www.canalplus.com/cinema/la-faille/h/573097_50002"}
-            urlDisplay={"CANAL+"}
-            imageSrc={imageFaille}
+            name={"Dynastie"}
+            url={"https://www.netflix.com/sn/title/80179394"}
+            urlDisplay={"Netflix"}
+            imageSrc={imageDynastie}
           />
         </ul>
       </div>

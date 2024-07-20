@@ -105,7 +105,7 @@ function Footer() {
           <FooterLink text={"Essays"} url={"/essays"} />
         </div>
         <p className="text-sm text-zinc-400">
-          © 2024 bass toure. All rights reserved.
+          © 2024 Bila Diop. All rights reserved.
         </p>
       </div>
     </footer>
